@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>OnTrack</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1 class="logo"><span class="glow">|</span><span class="glow">⌚ </span> <span class="bold">O</span>n<span class="bold">T</span>rack <span class="glow">|</span></h1>
+    
+    <div class="controls">
+      <button id="toggle-mode">🌙 Dark Mode</button>
+      <button id="start-stop-btn">▶️ Start Tracking</button>
+      <button id="export-btn">📁 Export Data</button>
+      <button id="clear-btn">🗑️ Clear Data</button>
+    </div>
+
+    <table id="data-table">
+      <thead>
+        <tr>
+          <th>Site</th>
+          <th>Date</th>
+          <th>Start Time</th>
+          <th>End Time</th>
+          <th>Duration</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

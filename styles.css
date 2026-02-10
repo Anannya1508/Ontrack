@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 1rem;
+  background-color: #ffffff;
+  color: #000000;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.dark-mode {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+.container {
+  max-width: 400px;
+}
+
+.logo {
+  text-align: center;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.glow {
+  color: #00bfff;
+  text-shadow: 0 0 8px #00bfff;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+button {
+  padding: 0.5rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#toggle-mode {
+  background-color: #007bff;
+  color: white;
+}
+
+#start-stop-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+#export-btn {
+  background-color: #17a2b8;
+  color: white;
+}
+
+#clear-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  font-size: 0.85rem;
+}
+
+thead {
+  background-color: #007bff;
+  color: white;
+}
+
+thead th,
+tbody td {
+  padding: 6px;
+  border: 1px solid #ccc;
+}
+
+.dark-mode thead {
+  background-color: #0056b3;
+}
