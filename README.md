@@ -446,4 +446,18 @@ Please include:
 
 ---
 
+<div align="center">
 
+**Made with ❤️ for productivity**
+
+⭐ If you find OnTrack helpful, please star the repository!
+
+[![Star on GitHub](https://img.shields.io/github/stars/yourusername/OnTrack-T?style=social)](https://github.com/yourusername/OnTrack-T)
+
+---
+
+*Last Updated: February 2026*
+
+*Version 1.0 - Stable Release*
+
+</div>
